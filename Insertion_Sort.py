@@ -9,8 +9,8 @@ def insertion_sort(arr):
                 break
 
 
-my_list = [64, 34, 25, 12, 22, 11, 90]
-# my_list = input().split(",")
-# my_list = list(map(int, my_list))
+# my_list = [64, 34, 25, 12, 22, 11, 90]
+my_list = input().split(",")
+my_list = list(map(int, my_list))
 insertion_sort(my_list)
 print("Отсортированный список:", my_list)
